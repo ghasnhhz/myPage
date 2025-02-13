@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My page</title>
+
+    <style>
+      body {
+        background-image: url('imageForFirstPage.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: aqua;
+      }
+
+      .content-box {
+        background-image: url('imageForFirstPage.jpg');
+        width: 550px;
+        height: 350px;
+        background-size: cover;
+        position: absolute;
+        background-position: center;
+        color: rgb(209, 209, 209);
+        font-size: 20px;
+        border-radius: 20px;
+        text-align: center;
+        padding: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(192, 94, 94, 0.1);
+        box-shadow: 10px 10px 20px;
+        text-align: center;
+      }
+
+      .first-p1 {
+        font-weight: bold; 
+        display: block;
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      .second-p1 {
+        font-family: Arial; 
+        font-size: 20px;
+        display: block;
+      }
+
+      .next-page {
+        margin-left: 1550px;
+      }
+      .next-button {
+        background-color: rgb(132, 2, 2);
+        color: white;
+        border: none;
+        height: 30px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 10px black;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 400px;
+      }
+      .next-button:hover {
+        background-color: rgb(232, 23, 23);
+        color: black;
+      }
+
+      h4 {
+        text-align: left;
+        margin-left: 14px;
+        margin: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-box">
+      <p class="first-p1">My Projects:</p>
+      <p class="second-p1">You can see my projects on this page. If you want to see the first one, click the button once on the right to go the next page, or if you want to see all of my projects, you click these until you reach the end.</p>
+      
+      <h4>1.Mobile Calculator Project.</h4>
+      <h4>2.Calculator Project.</h4>
+      <h4>3.Rock Paper Scissors Game.</h4>
+      <h4>4.Keyboard.</h4>
+      </div>
+
+      <a class="next-page" href="secondPage.html">
+        <button class="next-button">➤ NEXT PAGE</button>
+      </a>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My page</title>
+
+    <style>
+      body {
+        background-image: url('3imageForSecondPage.webp');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+      .content-box {
+        background-image: url('3imageForSecondPage.avif.jpg');
+        width: 550px;
+        height: 350px;
+        background-size: cover;
+        position: absolute;
+        background-position: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        border-radius: 20px;
+        text-align: center;
+        padding: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(192, 94, 94, 0.1);
+        box-shadow: 10px 10px 20px;
+        text-align: center;
+      }
+
+      .first-p1 {
+        font-weight: bold; 
+        display: block;
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      .second-p1 {
+        display: block;
+        font-family: Arial; 
+        font-size: 20px;
+      }
+      .third-p1 {
+        text-align: left;
+        margin-left: 18px;
+        margin-top: 80px;
+      }
+
+      .button-container {
+        display: flex;
+        justify-content: space-between; /* Aligns buttons to the left and right */
+        position: absolute;
+        bottom: 330px; /* Positioning buttons at the bottom */
+        left: 0;
+        right: 0;
+        width: 96%;
+        padding: 15px;
+      }
+
+      .next-button,
+      .initial-button {
+        background-color: rgb(132, 2, 2);
+        color: white;
+        border: none;
+        height: 30px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 10px black;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 5px 10px;
+      }
+
+      .next-button:hover,
+      .initial-button:hover {
+        background-color: rgb(232, 23, 23);
+        color: black;
+      }
+
+      .phone-calculator {
+        font-size: 24px;
+        color: white;
+      }
+
+      .phone-calculator {
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .phone-calculator:hover {
+        font-size: 23px;
+        color: white;
+      }
+
+      .code:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-box">
+      <p class="first-p1">Here is my Phone Calculator  Project:
+      </p>
+      <p class="second-p1">You can see the project by clicking the link below. You can see others as well, by clicking the page on the right.</p>
+
+      <a class="phone-calculator" href="https://ghasnhhz.github.io/PhoneCalculator/">Visit Phone Calculator</a>
+
+      <p class="third-p1">To see the project code: <a class="code" href="https://github.com/ghasnhhz/PhoneCalculator.git">the code here.</a></p>
+    </div>
+
+    <div class="button-container">
+      <a href="firstPage.html">
+        <button class="initial-button" style="margin-left: 27px;">◀ INITIAL PAGE</button>
+      </a>
+      <a href="thirdPage.html">
+        <button class="next-button">➤ NEXT PAGE</button>
+      </a>
+    </div>
+  </body>
+</html>
